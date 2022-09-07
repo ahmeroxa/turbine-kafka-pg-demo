@@ -29,14 +29,19 @@ func (a App) Run(v turbine.Turbine) error {
 		return err
 	}
 
-	res := v.Process(rr, Format{})
-
-	dest, err := v.Resources("demopg")
+	err = source.Write(rr, "raw")
 	if err != nil {
 		return err
 	}
 
-	err = dest.Write(res, "inbount_events")
+	res := v.Process(rr, Format{})
+
+	//dest, err := v.Resources("demopg")
+	//if err != nil {
+	//	return err
+	//}
+
+	err = source.Write(res, "inbound_events")
 	if err != nil {
 		return err
 	}
