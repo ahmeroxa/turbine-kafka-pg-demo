@@ -3,6 +3,6 @@
   "language": "golang",
   "environment": "common",
   "resources": {
-    "source_name": "fixtures/demo-cdc.json"
+    "cck": "fixtures/cck.json"
   }
 }

@@ -61,7 +61,7 @@ func (f Format) Process(stream []turbine.Record) []turbine.Record {
 			log.Printf("error casting Payload to Map: %s", err.Error())
 			break
 		}
-		log.Printf("converted record with schema: %+v", j)
+		log.Printf("converted record with schema: %+v", string(j))
 		stream[i].Payload = j
 	}
 	return stream
