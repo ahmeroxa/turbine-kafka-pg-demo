@@ -29,19 +29,17 @@ func (a App) Run(v turbine.Turbine) error {
 		return err
 	}
 
-	err = source.Write(rr, "raw")
+	res := v.Process(rr, Format{})
+
+	dest, err := v.Resources("demopg")
 	if err != nil {
 		return err
 	}
 
-	res := v.Process(rr, Format{})
-
-	//dest, err := v.Resources("demopg")
-	//if err != nil {
-	//	return err
-	//}
-
-	err = source.Write(res, "inbound_events")
+	err = dest.WriteWithConfig(res, "inbound_events", turbine.ResourceConfigs{
+		{Field: "key.converter", Value: "org.apache.kafka.connect.storage.StringConverter"},
+		{Field: "key.converter.schemas.enable", Value: "true"},
+	})
 	if err != nil {
 		return err
 	}
