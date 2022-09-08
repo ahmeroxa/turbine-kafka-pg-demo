@@ -20,10 +20,10 @@ require (
 	github.com/google/uuid v1.3.0 // indirect
 	github.com/meroxa/meroxa-go v0.0.0-20220711165903-c09da3162930 // indirect
 	github.com/oklog/run v1.1.1-0.20200508094559-c7096881717e // indirect
-	github.com/tidwall/gjson v1.14.1 // indirect
+	github.com/tidwall/gjson v1.14.3 // indirect
 	github.com/tidwall/match v1.1.1 // indirect
 	github.com/tidwall/pretty v1.2.0 // indirect
-	github.com/tidwall/sjson v1.2.4 // indirect
+	github.com/tidwall/sjson v1.2.5 // indirect
 	github.com/volatiletech/inflect v0.0.1 // indirect
 	github.com/volatiletech/null/v8 v8.1.2 // indirect
 	github.com/volatiletech/randomize v0.0.1 // indirect

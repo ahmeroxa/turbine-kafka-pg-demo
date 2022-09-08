@@ -76,9 +76,9 @@ func mapTypeToKCType(t FieldType) string {
 	case StringField:
 		return "string"
 	case IntField:
-		return "int64"
+		return "integer"
 	case FloatField:
-		return "float64"
+		return "double"
 	case BoolField:
 		return "boolean"
 	default:
