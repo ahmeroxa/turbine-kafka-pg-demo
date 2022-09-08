@@ -27,7 +27,7 @@ github.com/google/uuid
 # github.com/meroxa/meroxa-go v0.0.0-20220711165903-c09da3162930
 ## explicit; go 1.17
 github.com/meroxa/meroxa-go/pkg/meroxa
-# github.com/meroxa/turbine-go v0.0.0-20220906184519-091122051611 => ../turbine-go
+# github.com/meroxa/turbine-go v0.0.0-20220906184519-091122051611
 ## explicit; go 1.18
 github.com/meroxa/turbine-go
 github.com/meroxa/turbine-go/local
@@ -189,5 +189,4 @@ google.golang.org/protobuf/types/descriptorpb
 google.golang.org/protobuf/types/known/anypb
 google.golang.org/protobuf/types/known/durationpb
 google.golang.org/protobuf/types/known/timestamppb
-# github.com/meroxa/turbine-go => ../turbine-go
 # github.com/ahamidi/kcschema => ../../ahamidi/kcschema

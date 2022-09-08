@@ -7,8 +7,6 @@ require (
 	github.com/meroxa/turbine-go v0.0.0-20220906184519-091122051611
 )
 
-replace github.com/meroxa/turbine-go => ../turbine-go
-
 replace github.com/ahamidi/kcschema => ../../ahamidi/kcschema
 
 require (

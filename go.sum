@@ -61,6 +61,8 @@ github.com/google/uuid v1.3.0/go.mod h1:TIyPZe4MgqvfeYDBFedMoGGpEw/LqOeaOT+nhxU+
 github.com/grpc-ecosystem/grpc-gateway v1.16.0/go.mod h1:BDjrQk3hbvj6Nolgz8mAMFbcEtjT1g+wF4CSlocrBnw=
 github.com/meroxa/meroxa-go v0.0.0-20220711165903-c09da3162930 h1:K2XpGYdkvI3J03JX7+9f2U3QspZgMr+tUgg2phkwLJI=
 github.com/meroxa/meroxa-go v0.0.0-20220711165903-c09da3162930/go.mod h1:qczCsZeXwn2R+JeEVjPkgtIMGROQ1Si8ox+OC2nfOYg=
+github.com/meroxa/turbine-go v0.0.0-20220906184519-091122051611 h1:T5FqKoaQqraTYwXLwsM6VOs3uM5nvSC+KbgxtkT2qoc=
+github.com/meroxa/turbine-go v0.0.0-20220906184519-091122051611/go.mod h1:kjatgrAl5+fvXEnNO3GL5CImR+Yuiyd2iTCD+ceM+C4=
 github.com/oklog/run v1.1.1-0.20200508094559-c7096881717e h1:bxQ+jj+8fdl9112bovUjD/14jj/uboMqjyVoFkqrdGg=
 github.com/oklog/run v1.1.1-0.20200508094559-c7096881717e/go.mod h1:sVPdnTZT1zYwAJeCMu2Th4T21pA3FPOQRfWjQlk7DVU=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
